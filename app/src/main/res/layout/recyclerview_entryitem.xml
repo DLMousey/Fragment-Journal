@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/entryitem_linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="2dp"
+    android:background="@drawable/textview_border"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp"
+>
+    <TextView
+        android:id="@+id/entryitem_title_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title Text"
+        android:padding="6dp"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/entryitem_content_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:hint="A preview of the content of the item, it should be about 250 chars" />
+    <TextView
+        android:id="@+id/entryitem_date_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:hint="Added 25th July 2020"
+        android:textSize="10sp"
+        android:textStyle="bold"/>
+</LinearLayout>
